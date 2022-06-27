@@ -1,0 +1,216 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MCU_Module_WeMos_D1_mini
+#
+DEF MCU_Module_WeMos_D1_mini U 0 20 Y Y 1 F N
+F0 "U" 150 750 50 H V L CNN
+F1 "MCU_Module_WeMos_D1_mini" 50 -750 50 H V L CNN
+F2 "Module:WEMOS_D1_mini_light" 0 -1150 50 H I C CNN
+F3 "" -1850 -1150 50 H I C CNN
+$FPLIST
+ WEMOS*D1*mini*
+$ENDFPLIST
+DRAW
+S -300 700 300 -700 1 1 10 f
+X ~RST 1 -400 400 100 R 50 50 1 1 I
+X GND 10 0 -800 100 U 50 50 1 1 W
+X D4 11 400 0 100 L 50 50 1 1 B
+X D3 12 400 100 100 L 50 50 1 1 B
+X SDA/D2 13 400 200 100 L 50 50 1 1 B
+X SCL/D1 14 400 300 100 L 50 50 1 1 B
+X RX 15 -400 100 100 R 50 50 1 1 I
+X TX 16 -400 0 100 R 50 50 1 1 O
+X A0 2 400 500 100 L 50 50 1 1 I
+X D0 3 400 400 100 L 50 50 1 1 B
+X SCK/D5 4 400 -100 100 L 50 50 1 1 B
+X MISO/D6 5 400 -200 100 L 50 50 1 1 B
+X MOSI/D7 6 400 -300 100 L 50 50 1 1 B
+X CS/D8 7 400 -400 100 L 50 50 1 1 B
+X 3V3 8 100 800 100 D 50 50 1 1 w
+X 5V 9 -100 800 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Transistor_FET_AO3400A
+#
+DEF Transistor_FET_AO3400A Q 0 20 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "Transistor_FET_AO3400A" 200 0 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+ALIAS 2N7002 2N7002E 2N7002H 2N7002K BS170F BS870 BSN20 BSS123 BSS127S DMG2302U DMG3402L DMG3404L DMG3406L DMG3414U DMG3418L DMN10H220L DMN10H700S DMN13H750S DMN2041L DMN2050L DMN2056U DMN2058U DMN2075U DMN2230U DMN24H11DS DMN24H3D5L DMN3042L DMN3051L DMN30H4D0L DMN3110S DMN3150L DMN3300U DMN3404L DMN6075S DMN6140L DMN67D7L DMN67D8L MMBF170 VN10LF ZVN3306F ZVN3310F ZVN3320F ZVN4106F ZXM61N02F ZXM61N03F ZXMN10A07F ZXMN2A01F ZXMN2A14F ZXMN2B01F ZXMN2B14FH ZXMN2F30FH ZXMN2F34FH ZXMN3A01F ZXMN3A14F ZXMN3B01F ZXMN3B14F ZXMN3F30FH ZXMN6A07F IRLML0030 IRLML2060 TSM2302CX AO3400A
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 65 0 110 0 1 10 N
+C 100 -70 10 0 1 0 F
+C 100 70 10 0 1 0 F
+P 2 0 1 0 10 0 -100 0 N
+P 2 0 1 10 10 75 10 -75 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 0 100 -100 100 0 30 0 N
+P 4 0 1 0 30 -70 130 -70 130 70 30 70 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+P 4 0 1 0 110 20 115 15 145 15 150 10 N
+P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
+X G 1 -200 0 100 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Transistor_FET_AO3401A
+#
+DEF Transistor_FET_AO3401A Q 0 20 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "Transistor_FET_AO3401A" 200 0 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+ALIAS VP0610T BSS84 NTR2101P BSS83P Si2319CDS IRLML6401 IRLML6402 DMG2301L AO3401A IRLML9301 IRLML5203 Si2371EDS TSM2301ACX FDN340P
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 65 0 110 0 1 10 N
+C 100 -70 10 0 1 0 F
+C 100 70 10 0 1 0 F
+P 2 0 1 0 10 0 -100 0 N
+P 2 0 1 10 10 75 10 -75 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 0 100 -100 100 0 30 0 N
+P 4 0 1 0 30 70 130 70 130 -70 30 -70 N
+P 4 0 1 0 90 0 50 15 50 -15 90 0 F
+P 4 0 1 0 110 -20 115 -15 145 -15 150 -10 N
+P 4 0 1 0 130 -15 115 10 145 10 130 -15 N
+X G 1 -200 0 100 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mod_cell_1_00-rescue_+BATT-power-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue
+#
+DEF mod_cell_1_00-rescue_+BATT-power-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "mod_cell_1_00-rescue_+BATT-power-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +BATT 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# mod_cell_1_00-rescue_-BATT-power-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue
+#
+DEF mod_cell_1_00-rescue_-BATT-power-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "mod_cell_1_00-rescue_-BATT-power-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 0 0 0 100 N
+P 4 0 1 0 30 50 -30 50 0 100 30 50 F
+X -BATT 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# mod_cell_1_00-rescue_Conn_01x01-Connector_Generic-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue
+#
+DEF mod_cell_1_00-rescue_Conn_01x01-Connector_Generic-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "mod_cell_1_00-rescue_Conn_01x01-Connector_Generic-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mod_cell_1_00-rescue_Fuse-Device-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue
+#
+DEF mod_cell_1_00-rescue_Fuse-Device-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue F 0 0 N Y 1 F N
+F0 "F" 80 0 50 V V C CNN
+F1 "mod_cell_1_00-rescue_Fuse-Device-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue" -75 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *Fuse*
+$ENDFPLIST
+DRAW
+S -30 -100 30 100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mod_cell_1_00-rescue_LED-Device-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue
+#
+DEF mod_cell_1_00-rescue_LED-Device-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "mod_cell_1_00-rescue_LED-Device-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mod_cell_1_00-rescue_PWR_FLAG-power-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue
+#
+DEF mod_cell_1_00-rescue_PWR_FLAG-power-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "mod_cell_1_00-rescue_PWR_FLAG-power-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# mod_cell_1_00-rescue_R-Device-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue
+#
+DEF mod_cell_1_00-rescue_R-Device-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "mod_cell_1_00-rescue_R-Device-mod_cell_0_00-rescue-mod_cell_0_01-rescue-mod_cell_0_02-rescue-mod_cell_0_02-rescue" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
