@@ -36,6 +36,10 @@ Green BMS assumes no responsibility for any errors or inaccuracies that may appe
 The use of this project is done entirely at your own risk and responsibility.
 The use of this project may not be compliant with local laws or regulations.
 
+## Open Source Hardware Certification
+Green BMS has been certified as open source hardware by the Open Source Hardware Association, with the UID: IT000009.
+Certificate link: (https://certification.oshwa.org/it000009.html)
+
 ## License
 
 This work is licensed under a **Creative Commons Attribution-ShareAlike 4.0 International License**.
